@@ -1,5 +1,5 @@
 {
-  "name": "live-schedule-shared",
+  "name": "@dszondy/live-schedule-shared",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
