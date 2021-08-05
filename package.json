@@ -3,7 +3,8 @@
   "version": "1.0.1",
   "types": "./src/index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 0"
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "sonar": "sonarlint --src 'src/**'"
   },
   "publishConfig": {
     "@dszondy:registry": "https://npm.pkg.github.com"
@@ -19,5 +20,9 @@
     "url": "https://github.com/dszondy/live-schedule-shared/issues"
   },
   "homepage": "https://github.com/dszondy/live-schedule-shared#readme",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "jsdoc": "^3.6.7",
+    "sonarlint": "^1.1.0"
+  }
 }
